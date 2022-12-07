@@ -1,3 +1,5 @@
 package com.iw.jetpackcomposelearn.data
 
-data class Message(val msg:String?,val description:String?)
+import androidx.annotation.DrawableRes
+
+data class Message(val msg:String?,val description:String?,@DrawableRes val ic_image:Int)
